@@ -1,0 +1,20 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@2.1.6
+3 info using node@v0.11.15
+4 verbose node symlink /usr/bin/node
+5 error install Couldn't read dependencies
+6 verbose stack Error: ENOENT, open '/home/denlillemand/.spf13-vim-3/.vim/package.json'
+6 verbose stack     at Error (native)
+7 verbose cwd /home/denlillemand/.spf13-vim-3/.vim
+8 error Linux 3.16.0-33-generic
+9 error argv "/usr/bin/node" "/usr/bin/npm" "install"
+10 error node v0.11.15
+11 error npm  v2.1.6
+12 error path /home/denlillemand/.spf13-vim-3/.vim/package.json
+13 error code ENOPACKAGEJSON
+14 error errno -2
+15 error package.json ENOENT, open '/home/denlillemand/.spf13-vim-3/.vim/package.json'
+15 error package.json This is most likely not a problem with npm itself.
+15 error package.json npm can't find a package.json file in your current directory.
+16 verbose exit [ -2, true ]
